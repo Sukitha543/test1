@@ -1,0 +1,132 @@
+/*Styling the main section*/
+main{
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: rgba(255, 255, 255, 0.671);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(11, 11, 75);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Styling h1 headings*/
+h1{
+    text-align: center;
+    color: rgb(70, 70, 211);
+}
+
+/*Styling the form*/
+form{
+    margin-top: 20px;
+}
+
+/*Styling the fieldsets*/
+fieldset{
+    border:none;
+    margin-bottom: 20px;
+}
+/*Styling the legends*/
+legend{
+      color: rgb(70, 70, 211);
+      font-size: 28px;
+      }
+
+/*Styling the labels*/
+label{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/*Styling all the inputs*/
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+
+textarea{
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+input[type="radio"] {
+    margin-left: 5px;
+    
+}
+
+select{
+    width: calc(100% - 20px);
+    padding: 10px;  
+    font-size: 16px;
+}
+
+/*Styling the buttons*/
+button[type="submit"],button[type="reset"] {
+    background-color: rgb(11, 11, 75);
+    color: white;
+    border: none;
+    padding: 10px 60px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size:18px;
+    border-radius: 10px;
+}
+
+button[type="submit"]:hover{
+    background-color: white;
+    color: black;
+}
+
+button[type="reset"]:hover{
+    background-color: white;
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+      padding: 10px;
+      margin: 20px auto;
+      max-width: 100%;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+

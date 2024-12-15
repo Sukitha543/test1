@@ -1,0 +1,102 @@
+/*Container for the flexbox layout*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;/*Adds 30px margin around the container*/
+    justify-content: center;
+    gap: 20px 20px;
+    padding: 30px; /*Adds 30px padding inside the container*/
+}
+
+/*Styling each box inside the container*/
+.box{
+    width: 390px;
+    height: 320px;
+    background-color: rgb(11, 11, 75);
+    border-radius: 20px;
+}
+
+/*Styling the images inside the box*/
+.box img{
+    width: 370px;
+    height: 250px;
+    margin: 10px;
+}
+
+/*Styling the texts which are give in the title div class*/
+.title{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/*Styling h1 headings inside services div class*/
+.services h1{
+    margin-top: 20px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(11, 11, 75);
+    font-size: 50px;
+}
+
+/*Styling paragraphs inside services div class*/
+.services p{
+    margin-top: 20px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(11, 11, 75);
+}
+
+/*Styling the button*/
+.button{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button img{
+    width: 280px;
+    height: auto;
+}
+
+.button img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+@media (max-width: 768px) {
+    
+    .services p{
+        font-size: 25px;
+    }
+    .container {
+        flex-direction: column; 
+        justify-content: center;
+        gap: 20px; 
+        padding: 20px; 
+        margin: 20px;
+    }
+
+    .box {
+        width: 300px; 
+        height:auto; 
+        
+    }
+
+    .box img {
+        width: 280px; 
+        height: auto; 
+    }
+
+    .title {
+        font-size: 20px; 
+        margin-bottom: 10px;
+    }
+}
+

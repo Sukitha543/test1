@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/consulting.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="consulation form,channel a doctor">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="images/PNG" href="images/android-chrome-192x192.png">
+        <title>Consulting Reservations</title>
+    </head>
+    <body>
+        <!-- Header with the logo-->
+        <header>
+            <div class="logo">
+                <img src="images/hospitallogo.avif" alt="logo">
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="doctors.html">Doctors</a></li>
+                    <li><a href="consulting.html">Consulting Reservations</a></li>
+                    <li><a href="pharmacy.html">Pharmacy</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div>
+            <h1>Consulting Reservation Form</h1>
+            </div>
+            <form>
+            <fieldset>
+             <legend>Patient Information</legend>
+             <br>
+             <!-- First Name -->
+             <label for="firstname">First Name:</label>
+             <input type="text" id="firstname" name="firstname" required>
+             <br>
+             <!-- Last Name -->
+             <label for="lastname">Last Name:</label>
+             <input type="text" id="lastname" name="lastname" required>
+             <br>
+             <!-- Title -->
+             <label>Title:</label>
+             <br>
+             <input type="radio" id="title1" name="title" value="Mr">
+             <label for="title1">Mr</label>
+             <br>
+             <input type="radio" id="title2" name="title" value="Mrs">
+             <label for="title2">Mrs</label>
+             <br>
+             <input type="radio" id="title3" name="title" value="Ms">
+             <label for="title3">Ms</label>
+             <br>
+             <input type="radio" id="title4" name="title" value="Master">
+             <label for="title4">Master</label>
+             <br>
+             <br>
+            <!-- Date Of Birth -->
+             <label for="dob">Date of Birth:</label>
+             <input type="date" id="dob" name="dob" required>
+             <br>
+             <br>
+            <!--Gender -->
+             <label>Gender:</label>
+             <br>
+             <input type="radio" id="gender1" name="gender" value="Male">
+             <label for="gender1">Male</label>
+             <br>
+             <input type="radio" id="gender2" name="gender" value="Female">
+             <label for="gender2">Female</label>
+             <br>
+             <input type="radio" id="gender3" name="gender" value="Other">
+             <label for="gender3">Other</label>
+             <br>
+             <br>
+            <!-- Contact Number -->
+             <label for="contact">Contact Number:</label>
+             <input type="text" id="contact" name="contact" maxlength="12" required>
+             <br>
+            <!-- Email Address -->
+             <label for="email">Email Address:</label>
+             <input type="text" id="email" name="email" required>
+           </fieldset>
+                <!-- Consultation Details -->
+                <fieldset>
+                 <legend>Consultation Details</legend>
+                 <br>
+                 <!-- Select Doctor -->
+                 <label for="doctor">
+                    Select Doctor:
+                 <select id="doctor" name="doctor">
+                    <option value="doctor0">-SELECT-</option>  
+                    <option value="doctor1">Dr.Malini Fernando</option>  
+                    <option value="doctor1">Dr.Kavin Jayasekara </option>
+                    <option value="doctor1">Dr.Chaminda Perera</option>
+                    <option value="doctor1">Dr.Nadeesha Jayawardena</option>
+                    <option value="doctor1">Dr.Zyan De Silva</option>
+                    <option value="doctor1">Dr.Liam Rajapaksha</option>
+                 </select>
+                 </label>
+                 <br>
+                 <br>
+               <!-- Branch -->
+             <label>Branch:</label>
+             <br>
+             <input type="radio" id="branch1" name="branch" value="Colombo">
+             <label for="branch1">Union Place</label>
+             <br>
+             <input type="radio" id="branch2" name="branch" value="Thalawathugoda">
+             <label for="branch2">Borella</label>
+             <br>
+             <input type="radio" id="branch3" name="branch" value="Malabe">
+             <label for="branch3">Malabe</label>
+             <br>
+             <br>
+             <p>Visit Doctors page to see more.</p>
+             <br>
+             <!-- Department -->
+             <label>
+                Specialization/Department:
+             <select id="department" name="department">
+                <option value="department0">-SELECT-</option>  
+                <option value="department1">General Physician</option>  
+                <option value="department2">Cardiologist</option>
+                <option value="department3">Neurologist</option>
+                <option value="department4">Pediatrician</option>
+                <option value="department5">Gynecologist</option>
+                <option value="department6">Surgeon</option>
+             </select>
+             </label>
+             <br>
+            </fieldset>
+            <!-- Medical History -->
+             <fieldset>
+                <legend>Medical History</legend>
+                <br>
+                <label for="conditions">Existing Conditions:</label>
+                <br>
+                <textarea name="conditions" id="conditions" cols="60" rows="10">If any</textarea>
+             </fieldset>
+             <!-- Buttons -->
+             <button type="submit">Submit</button>
+             <button type="reset">Clear</button>
+            </form>
+          </main>
+          <!-- Footer with the logo -->
+          <footer>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <img src="images/hospitallogo.avif" alt="logo">
+                </div>
+                <div class="footer-quick-links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="doctors.html">Doctors</a></li>
+                        <li><a href="consulting.html">Consulting Reservations</a></li>
+                        <li><a href="pharmacy.html">Pharmacy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h2>Contact</h2>
+                    <ul>
+                        <li>011 456 3784</li>
+                        <li>main.info@carenest.com</li>
+                    </ul>
+                 </div>
+                </div>
+                <div class="footer-copy">
+                    <p>&copy;2024 Care Nest Hospitals.All rights reserved</p>
+                </div>
+        </footer>
+        </body>
+        </html>
+         

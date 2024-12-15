@@ -1,0 +1,99 @@
+
+/*Styling doctors div class*/
+.doctors{
+    margin-top: 25px;
+    text-align: center;
+    color:rgb(11, 11, 75);
+}
+
+/*Styling h1 headings in the doctors div class*/
+.doctors h1{
+    margin-top: 20px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    
+}
+
+/*Styling paragraphs in the doctors div class*/
+.doctors p{
+    margin-top: 20px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+/*Styling the grid div class*/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 30px;
+    
+}
+
+/*Styling the box div class which is inside the grid div class*/
+.box{
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(11, 11, 75);
+    color: white;
+    border-radius: 10px;
+    line-height: 1.4;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    
+}
+
+/*Syling the images inside the box div class*/
+.box img {
+    width: 280px;
+    height: 250px;
+}
+
+/*Syling h3 headings inside the box div class*/
+.box h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+/*Syling the paragraphs inside the box div class*/
+.box p {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+}
+
+@media screen and (max-width:768px) {
+    
+    .doctors{
+        margin-bottom: 20px;
+    }
+
+    .doctors p{
+        font-size: 25px;
+    }
+    
+    .grid{
+        display: flex;
+        flex-direction: column ;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        margin-bottom: 10px;
+        
+    }
+    
+    .box{
+        padding: 20px;
+        line-height: 1.5;
+    }
+
+    .box p{
+        font-size: 20px;
+    }   
+    
+    
+
+}

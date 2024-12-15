@@ -1,0 +1,65 @@
+{
+    "categories" : [
+        {
+            "name" : "Analgesics",
+            "image" :"images/c0256917-800px-wm.avif",
+            "medicines" :[
+                {"name":"Paracetamol","price":50},
+                {"name":"Aspirin","price":60},
+                {"name":"Naproxen","price":80},
+                {"name":"Tramadol","price":100},
+                {"name":"Ketrolac","price":120},
+                {"name":"Dicofenac","price":150}
+            ]
+        },
+        {
+            "name" : "Antibiotics",
+            "image" :"images/m78t8y-c-fahroni_alamy-stock-photo.avif",
+            "medicines" :[
+                {"name":"Amoxicillin","price":80},
+                {"name":"Ciprofloxacin","price":100},
+                {"name":"Azithromycin","price":120},
+                {"name":"Doxycycline","price":150},
+                {"name":"Cephalexin","price":180},
+                {"name":"Metronidazole","price":200}
+            ]
+        },
+        {
+            "name" : "Antidepressants",
+            "image" :"images/pills.avif",
+            "medicines" :[
+                {"name":"Fluoxetine","price":100},
+                {"name":"Sertaline","price":120},
+                {"name":"Citalopram","price":150},
+                {"name":"Escitalopram","price":160},
+                {"name":"Venlafaxine","price":180},
+                {"name":"Duloxetine","price":200}
+            ]
+        },
+        {
+            "name" : "Antihistamines",
+            "image" :"images/Antihistamines(1).avif",
+            "medicines" :[
+                {"name":"Loratadine","price":150},
+                {"name":"Cetirizine","price":200},
+                {"name":"Fexofenadine","price":220},
+                {"name":"Meclizine","price":250}
+            ]
+        },
+        {
+            "name" : "Antihypertensives",
+            "image" :"images/1711718700725.avif",
+            "medicines" :[
+                {"name":"Amlodipine","price":80},
+                {"name":"Lisinopril","price":100},
+                {"name":"Losartan","price":120},
+                {"name":"Metoprolol","price":140},
+                {"name":"Atenolol","price":160},
+                {"name":"Clonidine","price":180}
+            ]
+        }
+
+
+    ]
+}
+  

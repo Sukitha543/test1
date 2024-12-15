@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/pharmacy.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shop for medicines online at Care Nest Pharmacy. Access a wide range of trusted medications, with fast delivery and secure payment options.">
+    <link rel="icon" type="images/PNG" href="images/android-chrome-192x192.png">
+    <title>pharmacy</title>
+</head>
+<body>
+<main>
+    <header>
+        <div class="logo">
+            <img src="images/hospitallogo.avif" alt="logo">
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="consulting.html">Consulting Reservations</a></li>
+                <li><a href="pharmacy.html">Pharmacy</a></li>
+            </ul>
+        </nav>
+      </header>
+        <div class="container"></div>
+        <div class="table">
+          <table id="cartTable" border="1">
+            <thead>
+              <tr>
+                <th>Selected Medicine</th>
+                <th>Unit Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+            <tfoot>
+              <tr>
+                <td colspan="3">Full Amount</td>
+                <td id="fullAmount">0</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <br>
+        <div class="favbuttons">
+          <button id="saveToFavourites">Add to Favourites</button>
+          <button id="applyFavourites">Apply Favourites</button>
+          <a href="payment.html"><button id="buyNow">Buy Now</button></a>
+          <button id="reset">Reset</button>
+        </div>
+        <br>
+        <script src="./script/pharmacy.js" defer></script>
+      </main>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <img src="images/hospitallogo.avif" alt="logo">
+                </div>
+                <div class="footer-quick-links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="doctors.html">Doctors</a></li>
+                        <li><a href="consulting.html">Consulting Reservations</a></li>
+                        <li><a href="pharmacy.html">Pharmacy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h2>Contact</h2>
+                    <ul>
+                        <li>011 456 3784</li>
+                        <li>main.info@carenest.com</li>
+                    </ul>
+                 </div>
+                </div>
+                <div class="footer-copy">
+                    <p>&copy;2024 Care Nest Hospitals.All rights reserved</p>
+                </div>
+        </footer>
+</body>
+</html>

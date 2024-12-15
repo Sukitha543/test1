@@ -1,0 +1,117 @@
+/*styles for the welcome div class*/
+.welcome{
+    margin-top: 25px; /*Add a space above the welcome section*/
+    text-align: center;
+    color:rgb(17, 17, 107);
+}
+
+/*style for the h1 heading inside the welcome div class*/
+.welcome h1{
+    font-size:60px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/*style for the paragraphs inside the welcome div class*/
+.welcome p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/*style for the container div class*/
+.container{
+    background-color:rgba(20, 20, 100, 0.473);
+    color:white ;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin: 30px;
+     
+}
+ 
+ /*style for the images inside the container div class*/
+.container img{
+      width: 700px;
+      height: auto;
+}
+
+
+ /*style for the h2 headings inside the container div class*/
+.container h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+    margin:30px; /*Adds a space around the subheading*/
+}
+
+/*style for the paragraphs inside the container div class*/
+.container p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 30px; /*Adds a space around the paragraph*/
+    font-size: 25px;
+}
+
+/*lists for the unorderd lists inside the ul-list div class*/
+.ul-list ul {
+    list-style-position: inside; /* Displays the list markers inside the list box */
+    text-align: left;
+    display:inline-block; /* Makes the ul inline with other elements */
+}
+/*lists for the orderd lists inside the ol-list div class*/
+.ol-list ol{
+    list-style-position: inside;/* Displays the list markers inside the list box */
+    text-align: left;
+    display:inline-block /* Makes the ol inline with other elements */
+}
+
+/*All the unorderd and orderd lists within the page*/
+ .ul-list ul li {
+    font-size: 22px;
+    margin-bottom: 20px; /* Adds space between list items */
+}
+
+.ol-list ol li {
+  font-size: 22px;
+  margin-bottom: 20px; /* Adds space between list items */
+}
+
+@media only screen and (max-width: 768px) {
+
+    .welcome h1 {
+      font-size: 38px; 
+    }
+  
+    .welcome p {
+      font-size: 25px; 
+    }
+  
+    .container {
+      padding: 10px;
+      margin: 15px;
+    }
+  
+    .container h2 {
+      font-size: 35px; 
+    }
+  
+    .container p {
+      font-size: 20px; 
+    }
+  
+    .container img {
+      width: 100%; 
+      height: auto;
+    }
+  
+    ul li, ol li {
+      font-size: 20px;
+      margin-bottom: 10px; 
+    }
+  }
+
+
+
+
+
+
